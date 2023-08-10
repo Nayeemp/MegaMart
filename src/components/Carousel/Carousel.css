@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.carouselCustomButton {
+  width: 40px;
+  height: 40px;
+}
+
+@media (min-width: 768px) {
+  .carouselCustomButton {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (min-width: 992px) {
+  .carouselCustomButton {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .carouselCustomButton {
+    width: 86px;
+    height: 86px;
+  }
+}
+
+.carousel-control-prev {
+  left: -7.5% !important;
+  opacity: 0.9;
+}
+
+.carousel-control-next {
+  right: -7.5% !important;
+  opacity: 0.9;
+}

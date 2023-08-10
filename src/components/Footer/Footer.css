@@ -1,0 +1,70 @@
+/* footer */
+.footer {
+  background: url(../../assets/images/Footer/Maskgroup.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 50vh auto;
+}
+
+.contactUs {
+  font-family: "Hanken Grotesk";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 34px;
+}
+
+.socialMediaUl {
+  padding-left: 11px;
+  margin-bottom: 0px;
+}
+.socialMediaUl li {
+  list-style-type: none;
+  font-family: "Hanken Grotesk";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  margin-left: 0px;
+}
+
+.footerUl2 li {
+  font-family: "Hanken Grotesk";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 37px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.footerHeader {
+  font-family: "Hanken Grotesk";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  border-bottom: 3px solid #ffffff;
+  padding-bottom: 16px;
+  margin-bottom: 20px;
+}
+
+.copyright {
+  margin-top: 80px;
+  border-top: 1px solid #05abf3;
+  padding: 30px;
+  font-family: "Hanken Grotesk";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}

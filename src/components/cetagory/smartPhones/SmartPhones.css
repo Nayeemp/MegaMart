@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* CardGrid  */
+
+.cardDiscount {
+  min-height: 32px;
+  min-width: 35px;
+  position: absolute;
+  right: 0;
+  font-family: 'Hanken Grotesk';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  background-color: #008ecc;
+  color: white;
+  border-radius: 0px 16px 0px 16px;
+  padding: 10px !important;
+}
+
+.cardHeader {
+  font-family: 'Hanken Grotesk';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0em;
+}
+
+.cardBodyText1 {
+  font-family: 'Hanken Grotesk';
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0em;
+}
+
+.cardBodyText2 {
+  font-family: 'Hanken Grotesk';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-decoration: line-through;
+  margin-left: 10px;
+}
+
+.cardBodyFooter {
+  font-family: 'Hanken Grotesk';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0em;
+  color: #249b3e;
+}

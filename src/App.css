@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden !important;
+  min-height: 100vh !important;
+}
+
+/* Card Container */
+
+.cardContainerLeftText {
+  font-family: "Hanken Grotesk";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 16px;
+  color: #666666;
+}
+.cardContainerRightButton {
+  font-family: "Hanken Grotesk";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: right;
+  text-decoration: none;
+  color: #222222;
+  cursor: pointer;
+}
+
+/* Breakpoint Section */
+
+.sectionBreakpoint {
+  margin-top: 45px;
+}
+
+@media (min-width: 768px) {
+  .sectionBreakpoint {
+    margin-top: 55px;
+  }
+}
+
+@media (min-width: 992px) {
+  .sectionBreakpoint {
+    margin-top: 65px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .sectionBreakpoint {
+    margin-top: 75px;
+  }
+}
+@media (min-width: 1400px) {
+  .sectionBreakpoint {
+    margin-top: 85px;
+  }
+}
+
+.hoverEfferct:hover {
+  border: 1px solid #008ecc;
+}

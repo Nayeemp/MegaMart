@@ -1,0 +1,21 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": "airbnb",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "rules": {
+    "react/state-in-constructor": 0, //add by me
+    "react/destructuring-assignment": 0, //add by me
+    "no-console": "off", //add by me
+    "semi": 0, //add by me
+    "comma": 0, //add by me
+    "react/prop-types": 0, //add by me
+    "react/react-in-jsx-scope": 0, //add by me
+    "react/jsx-filename-extension": 0 //add by me
+  }
+}
