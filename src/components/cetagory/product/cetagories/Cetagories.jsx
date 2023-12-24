@@ -74,7 +74,7 @@ function Cetagories() {
         </a>
       </div>
 
-      <div className="row row-cols-2 row-cols-md-3   row-cols-lg-6 justify-content-center  g-2">
+      <div className="row row-cols-2 row-cols-md-3 row-cols-lg-6 justify-content-center g-2">
         {
         cetagoriesList.map((singleCetagoriesItem) => <CetagoriesItem singleCetagoriesItem={singleCetagoriesItem} key={singleCetagoriesItem.id} />)
       }

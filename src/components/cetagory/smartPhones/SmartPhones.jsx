@@ -70,7 +70,7 @@ function SmartPhones() {
         </a>
       </div>
 
-      <div className="row row-cols-2 row-cols-sm-2 row-cols-md-3   row-cols-lg-4 row-cols-xl-5  justify-content-center    g-3">
+      <div className="row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 justify-content-center g-3">
         {
         smartPhoneList && smartPhoneList.map((smartPhone) => <SingleSmartPhoneCard key={smartPhone.id} smartPhone={smartPhone} />)
       }
